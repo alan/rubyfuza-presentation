@@ -3,8 +3,16 @@
 ### Useful Rack Middleware to use in your apps
 
 !SLIDE bullets incremental
-# About Me #
-
+# About Me
 * Alan Kennedy
 * Developer at [Unboxed Consulting](http://www.unboxedconsulting.com) in London
 * [alan](http://www.github.com/alan) @ Github
+
+!SLIDE bullets incremental
+# Outline
+* Intro to Rack
+* How it Works
+* Middlewares & Examples
+* Node.js and Rack
+
+
