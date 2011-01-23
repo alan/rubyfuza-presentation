@@ -2,6 +2,6 @@
 
 # What is Middleware?
 * Changes the request or/and response
-* Faster than doing at app level
 * Separate logic into different apps
 * Write smaller modular applications
+* Can use Ruby for infrastructure
