@@ -2,5 +2,6 @@
 	{"section":"intro"},
     {"section":"about_rack"},
  	{"section":"middleware"},
-	{"section":"routing"}]
+	{"section":"routing"},
+	{"section":"auth"}]
 }
