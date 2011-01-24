@@ -3,5 +3,6 @@
     {"section":"01_about_rack"},
  	{"section":"02_middleware"},
 	{"section":"03_routing"},
-	{"section":"04_auth"}]
+	{"section":"04_auth"},
+	{"section":"05_monitoring"}]
 }
