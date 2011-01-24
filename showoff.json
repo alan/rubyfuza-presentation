@@ -4,5 +4,6 @@
  	{"section":"02_middleware"},
 	{"section":"03_routing"},
 	{"section":"04_auth"},
-	{"section":"05_monitoring"}]
+	{"section":"05_monitoring"},
+	{"section":"06_api_rate_limiting"}]
 }
