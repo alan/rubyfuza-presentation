@@ -1,18 +1,46 @@
+GIT
+  remote: git://github.com/alan/mongo_rack.git
+  revision: 865cf2e3f121d84c1e5718b4d7d307f029efab72
+  specs:
+    mongo_rack (0.0.5)
+      mongo (>= 0.18.2)
+      mongo_ext (>= 0.18.2)
+      rack (>= 1.0.1)
+
+GIT
+  remote: git://github.com/alan/wackamole.git
+  revision: 195c4e7e0ca7e0e657a95cdcae6c5e23f80473d5
+  specs:
+    wackamole (0.1.4)
+      agnostic-will_paginate (>= 3.0.0)
+      bson (>= 1.0.1)
+      bson_ext (>= 1.0.1)
+      main (>= 4.2.0)
+      memcache-client (>= 1.5.0)
+      mongo (>= 1.0.1)
+      mongo_rack (>= 0.0.3)
+      rack (>= 1.1.0)
+      rackamole (>= 0.0.3)
+      sinatra (>= 1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
     abstract (1.0.0)
     activesupport (3.0.3)
+    agnostic-will_paginate (3.0.0)
+    arrayfields (4.7.4)
     bluecloth (2.0.10)
     bson (1.2.0)
     bson_ext (1.2.0)
     chronic (0.3.0)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    fattr (2.2.0)
     gli (1.2.5)
     hitimes (1.1.1)
     i18n (0.5.0)
-    json (1.4.6)
+    json (1.5.0)
     little-plugger (1.1.2)
     logging (1.4.3)
       little-plugger (>= 1.1.2)
@@ -21,9 +49,14 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    main (4.4.0)
+      arrayfields (>= 4.7.4)
+      fattr (>= 2.1.0)
+    memcache-client (1.8.5)
     mime-types (1.16)
     mongo (1.2.0)
       bson (>= 1.2.0)
+    mongo_ext (0.19.3)
     nokogiri (1.4.4)
     oauth (0.4.4)
     polyglot (0.3.1)
@@ -62,6 +95,8 @@ PLATFORMS
 DEPENDENCIES
   bluecloth
   gli
+  mongo_rack!
   nokogiri
   rackamole
   showoff
+  wackamole!

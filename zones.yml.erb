@@ -1,0 +1,12 @@
+console_auth: &auth
+  auth:
+    user:     admin
+    password: admin
+
+zones:
+
+  production:
+    host:     <%= ENV['MONGO_HOST'] %>
+    port:     <%= ENV['MONGO_PORT'] %>
+    user:     <%= ENV['MONGO_USER'] %>
+    password: <%= ENV['MONGO_PASS'] %>
