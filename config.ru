@@ -1,6 +1,8 @@
 require "showoff"
 require "rackamole"
 
+use Rack::CommonLogger
+
 if ENV['RACK_ENV'] == 'production'
   use Rack::Mole, :app_name => 'Rubyfuza Rack', 
                   :store => Rackamole::Store::MongoDb.new(:db_name => 'mole_rubyfuza_production_mdb',

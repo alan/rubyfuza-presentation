@@ -5,5 +5,7 @@
 	{"section":"03_routing"},
 	{"section":"04_auth"},
 	{"section":"05_monitoring"},
-	{"section":"06_api_rate_limiting"}]
+	{"section":"06_api_rate_limiting"},
+	{"section":"07_node-rack"},
+	{"section":"08_conclusion"}]
 }
