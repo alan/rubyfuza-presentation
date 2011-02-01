@@ -9,7 +9,7 @@
 		  end
 
 		  def call(env)
-		    if env["PATH_INFO"] != "/"
+		    if env[PATH] != "/"
 		      @app.call(env)
 		    elsif Time.now < BETA
 		      @app.call(env.merge(PATH=>'/beta'))

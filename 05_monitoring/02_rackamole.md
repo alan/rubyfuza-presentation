@@ -1,7 +1,7 @@
 !SLIDE bullets incremental
 #Rackamole & Wackamole
-* Records user activity
+* Rackamole does logging / Wackamole UI
 * Provides logs identifying users
 * Exceptions & Performance (req time)
 * Sends notifications
-* Wackamole can be mounted in your middleware
+* Needs some OSS love

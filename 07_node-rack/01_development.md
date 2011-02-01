@@ -1,5 +1,5 @@
 !SLIDE bullets incremental
-# [Nack](https://github.com/josh/nack) for development
+# [Nack](https://github.com/josh/nack) by [josh](https://github.com/josh) for development
 * Starts a Node server and delegates to rack process
 * Or (expiring) pool of workers
 * It can create a Connect server (similar to Rack)
