@@ -1,3 +1,3 @@
-!SLIDE subsection
+!SLIDE
 
 # Middleware

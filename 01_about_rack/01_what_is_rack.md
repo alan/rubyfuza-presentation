@@ -1,4 +1,3 @@
 !SLIDE
 
 # What is Rack?
-
